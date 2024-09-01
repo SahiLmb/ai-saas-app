@@ -24,8 +24,12 @@ const config = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        bluegrad : {
+          1: '#113F75',
+          2: '#1F76DB',
+        },
         primary: {
-          DEFAULT: "hsl(var(--primary))",
+          DEFAULT: "#04AA6D",
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
