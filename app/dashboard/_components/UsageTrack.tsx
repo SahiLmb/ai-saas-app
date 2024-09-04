@@ -32,14 +32,14 @@ function UsageTrack() {
     const GetData=async()=>{
     {/*@ts-ignore */}
         const result:HISTORY[]=await db.select().from(AIOutput)
-        .where(eq(AIOutput.createdBy,user?.primaryEmailAddress?.emailAddress));
+        .where(eq(AIOutput.createdBy,user?.primaryEmailAddress?.emailAddress ?? ""));
 
         GetTotalUsage(result)
     }
 
     const IsUserSubscribed= async ()=>{
         const result=await db.select().from(UserSubscription)
-        .where(eq(UserSubscription.email,user?.primaryEmailAddress?.emailAddress));
+        .where(eq(UserSubscription.email,user?.primaryEmailAddress?.emailAddress ?? ""));
         if(result){
             setUserSubscription(true)
             // subscribed users get 1000000 credits
