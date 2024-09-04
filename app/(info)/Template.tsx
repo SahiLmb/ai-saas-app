@@ -133,7 +133,7 @@ export default[
         icon: 'https://cdn-icons-png.flaticon.com/128/3131/3131607.png',
         category: 'Rewriting Tool',
         slug: 'rewrite-article',
-        aiPrompt: 'Rewrite give article without any Plagiarism in rich text editor format',
+        aiPrompt: 'Rewrite given article without any Plagiarism in rich text editor format',
         form: [
             {
                 label: '🤖 Provide your Article/Blogpost or any other content to rewrite.',

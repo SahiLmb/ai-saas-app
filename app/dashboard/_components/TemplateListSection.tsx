@@ -1,13 +1,13 @@
-import Templates from '@/app/(info)/Templates'
 import React, { useEffect, useState } from 'react'
 import TemplateCard from './TemplateCard'
+import Template from '@/app/(info)/Template'
 
 
-export interface TEMPLATE{
+export interface TEMPLATE {
   name:string,
   desc:string,
-  icon:string,
   category:string,
+  icon:string,
   aiPrompt: string,
   slug:string,
   form?:FORM[]
@@ -20,18 +20,18 @@ export interface FORM{
   required?:boolean
 }
 function TemplateListSection({userSearchInput}:any) {
-  const[templateList,setTemplateList]=useState(Templates)
+  const[templateList,setTemplateList]=useState(Template)
   useEffect(()=>{
     // console.log(userSearchInput)
     if(userSearchInput)
     {
-      const filterData=Templates.filter(item=>
+      const filterData=Template.filter(item=>
         item.name.toLowerCase().includes(userSearchInput.toLowerCase())
       );
       setTemplateList(filterData);
     }
     else{
-      setTemplateList(Templates)
+      setTemplateList(Template)
     }
   },[userSearchInput]);
 
