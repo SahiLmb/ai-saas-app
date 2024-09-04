@@ -24,7 +24,7 @@ const config = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        bluegrad : {
+        greengrad : {
           1: '#113F75',
           2: '#1F76DB',
         },
