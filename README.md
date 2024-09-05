@@ -47,3 +47,9 @@ Checkout [app](app/README.md) for the installation process.
   <img src="public/assets/7.png" alt="sys-overview-gif" width="80%" />
 </p>
 <br>
+
+## Drizle Studio
+<p align="center">
+  <img src="public/assets/8.png" alt="sys-overview-gif" width="80%" />
+</p>
+<br>
