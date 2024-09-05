@@ -60,7 +60,7 @@ function UsageTrack() {
     <div className="m-5">
       <div className="bg-primary text-white p-3 rounded-lg">
         <h2 className="font-medium mb-2">Credits </h2>
-        <div className="h-2 bg-[#9981f9] w-full rounded-lg mb-2">
+        <div className="h-2 bg-[#caf531] w-full rounded-lg mb-2">
           <div
             className="h-2 bg-white rounded-full transition-all duration-1000"
             style={{
