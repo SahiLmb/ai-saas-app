@@ -5,11 +5,6 @@
 Checkout [app](app/README.md) for the installation process.
 
 # Overview of whole system
-<br>
-<p align="center">
-  <img src="" alt="sys-overview-gif" width="80%" />
-</p>
-<br> 
 
 ## Home Screen.
 <p align="center">
