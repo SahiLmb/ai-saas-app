@@ -45,6 +45,8 @@ function UsageTrack() {
      console.log(result)
   }
 
+// using history to determine the no. of credits used
+
   const GetTotalUsage = (result:HISTORY[]) => {
     let total: number = 0;
     result.forEach((element) => {
@@ -62,7 +64,7 @@ function UsageTrack() {
           <div
             className="h-2 bg-white rounded-full transition-all duration-1000"
             style={{
-              width:(totalUsage/maxWords)*100+"%",
+              width:(totalUsage/maxWords)*100+"%", // to show percentaged used
             }}
           ></div>
         </div>
