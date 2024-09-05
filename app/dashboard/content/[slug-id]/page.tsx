@@ -70,6 +70,7 @@ function CreateNewContent(props:PROPS) {
 
         const SaveInDb=async(formData:any,slug:any,aiResp:string)=>{
           try {
+            // @ts-ignore
           const result =await db.insert(AIOutput).values({
             formData:formData,
             templateSlug:slug,
