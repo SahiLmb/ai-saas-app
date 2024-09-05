@@ -40,7 +40,7 @@ function UsageTrack() {
      const result=await db.select().from(UserSubscription).where(eq(UserSubscription.email,user?.primaryEmailAddress?.emailAddress));
      if(result){
       setUserSubscription(true)
-      setMaxWords(1000000);
+      setMaxWords(100000);
     }
      console.log(result)
   }
