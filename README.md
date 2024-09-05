@@ -48,7 +48,7 @@ Checkout [app](app/README.md) for the installation process.
 </p>
 <br>
 
-## Drizle Studio
+## Drizle Studio to store data of users
 <p align="center">
   <img src="public/assets/8.png" alt="sys-overview-gif" width="80%" />
 </p>
